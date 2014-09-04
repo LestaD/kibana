@@ -144,6 +144,15 @@ function (angular, app, $, _, kbn, moment, timeSeries, numeral) {
        * resolution:: If auto_int is true, shoot for this many bars.
        */
       resolution    : 100,
+      
+      
+      
+      /**
+       * 
+       */
+      pre_zone      : '+04:00',
+      
+      
       /** @scratch /panels/histogram/3
        * interval:: If auto_int is set to false, use this as the interval.
        */
