@@ -340,7 +340,7 @@
     var facet = {};
 
     facet[name] = {
-      date_histogram: {}
+      date_histogram: {pre_zone: "+04:00"}
     };
 
     return {
@@ -450,7 +450,7 @@
           return facet[name].date_histogram.pre_zone;
         }
 
-        facet[name].date_histogram.pre_zone = tz;
+        facet[name].date_histogram.pre_zone = "+04:00";//tz;
         return this;
       },
 
