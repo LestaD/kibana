@@ -51,7 +51,7 @@ function (angular, $, kbn, _, config, moment, Modernizr) {
         save_temp_ttl: '30d',
         load_gist: false,
         load_elasticsearch: true,
-        load_elasticsearch_size: 20,
+        load_elasticsearch_size: 1000,
         load_local: false,
         hide: false
       },
