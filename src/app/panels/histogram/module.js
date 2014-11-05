@@ -150,7 +150,7 @@ function (angular, app, $, _, kbn, moment, timeSeries, numeral) {
       /**
        * 
        */
-      pre_zone      : '+04:00',
+      pre_zone      : '+03:00',
       
       
       /** @scratch /panels/histogram/3
